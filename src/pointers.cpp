@@ -1,11 +1,13 @@
 #include <iostream>
 
 using namespace std;
-
+               //&a         &b
 void myswap(int* ptr1, int* ptr2)
-{
+{      //a
   auto temp = *ptr1;
+  //a  =  b
   *ptr1 = *ptr2;
+  //b  = temp
   *ptr2 = temp;
 }
 
